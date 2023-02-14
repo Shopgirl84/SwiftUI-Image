@@ -11,6 +11,8 @@
 		65FD2CD3299BB402001F8363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FD2CD2299BB402001F8363 /* ContentView.swift */; };
 		65FD2CD5299BB403001F8363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FD2CD4299BB403001F8363 /* Assets.xcassets */; };
 		65FD2CD8299BB403001F8363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FD2CD7299BB403001F8363 /* Preview Assets.xcassets */; };
+		65FD2D11299BBF72001F8363 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 65FD2D10299BBF72001F8363 /* AppIcon.appiconset */; };
+		65FD2D19299C15BC001F8363 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 65FD2D18299C15BC001F8363 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		65FD2CD2299BB402001F8363 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65FD2CD4299BB403001F8363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FD2CD7299BB403001F8363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65FD2D10299BBF72001F8363 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		65FD2D18299C15BC001F8363 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			children = (
 				65FD2CD0299BB402001F8363 /* SwiftUI_ImageApp.swift */,
 				65FD2CD2299BB402001F8363 /* ContentView.swift */,
+				65FD2D18299C15BC001F8363 /* README.md */,
 				65FD2CD4299BB403001F8363 /* Assets.xcassets */,
+				65FD2D10299BBF72001F8363 /* AppIcon.appiconset */,
 				65FD2CD6299BB403001F8363 /* Preview Content */,
 			);
 			path = "SwiftUI-Image";
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FD2D11299BBF72001F8363 /* AppIcon.appiconset in Resources */,
 				65FD2CD8299BB403001F8363 /* Preview Assets.xcassets in Resources */,
+				65FD2D19299C15BC001F8363 /* README.md in Resources */,
 				65FD2CD5299BB403001F8363 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
